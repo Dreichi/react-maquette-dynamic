@@ -1,0 +1,44 @@
+.nav {
+    font-family: Roboto;
+    font-size: 20px;
+    position: relative;
+    height: 100px;
+    display: flex;
+  }
+  .nav div {
+    position: absolute;
+  }
+  .nav__logo {
+    margin-left: 5%;
+    margin-top: 37px;
+  }
+  .nav__logo a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: larger;
+  }
+  .nav__signup {
+    margin-top: 20px;
+    margin-right: 5%;
+    right: 0%;
+    height: 62px;
+    width: 90px;
+    background-color: rgb(13, 110, 253);
+    border-radius: 4px;
+  }
+  .nav__signup a {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-decoration: none;
+    height: 62px;
+    width: 90px;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  

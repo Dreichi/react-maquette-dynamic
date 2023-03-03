@@ -1,0 +1,27 @@
+.puzzle__card {
+    display: absolute;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 60px;
+    text-align: center;
+}
+
+p {
+    font-size: 60px;
+    text-align: center;
+}
+
+img {
+    width: 10%;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+@media (max-width: 768px) {
+    img {
+        width: 20%;
+    }
+}

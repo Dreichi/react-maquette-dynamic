@@ -1,0 +1,67 @@
+.header {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 280px;
+    z-index: 1;
+  }
+  .header__background {
+    position: absolute;
+    left: 0% !important;
+    margin-right: 100% !important;
+    width: 100%;
+    height: 280px;
+    z-index: -1;
+  }
+  .header__h1 {
+    color: white;
+    text-align: center;
+    width: 80%;
+    padding-left: 10%;
+  }
+  .header input {
+    text-align: center;
+    border: none;
+    margin-bottom: 2%;
+    height: 40px;
+    border-radius: 4px;
+    width: 350px;
+  }
+  .header button {
+    align-content: center;
+    background-color: rgb(13, 110, 253);
+    width: auto;
+    height: 40px;
+    border: none;
+    color: white;
+  }
+  .header #mail {
+    height: 40px;
+  }
+
+
+@media (min-width: 769px) {
+    .header {
+      height: 400px;
+    }
+    .header__background {
+      height: 400px;
+    }
+    .header__h1 {
+      font-size: 40px;
+      width: 50%;
+      padding-left: 25%;
+      padding-top: 5%;
+    }
+    .header input {
+      width: 500px;
+      font-size: 20px;
+    }
+    .header button {
+      height: 45px;
+      font-size: 20px;
+    }
+}
